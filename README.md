@@ -9,4 +9,13 @@ Be mindful of where in the git tree you're branching from though for merging bac
 
 A good use case for this would be two or more people working in the same dev branch to fix a section of code.
 
-having a branch of a branch is also good if you're wanting to try something different in your code since it gives you an extra layer away from the main branch.
+you can directly merge this branch into main.
+
+while in main branch
+Ex - git merge exampleOneA
+
+It's safter to merge it into its parent branch though since you're further abstracted away from main.
+
+whilein exampleOne
+
+Ex - git merge exampleOneA
