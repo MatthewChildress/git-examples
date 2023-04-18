@@ -12,6 +12,4 @@ the format looks like
 Ex - git checkout -b exampleOneB exampleOneA
 
 
-Branches of branches ar egood for minor changes like hotfixes.
-
-Be mindful that they will merge into the branch they were created from.
+Branches of branches are good for minor changes like hotfixes.
