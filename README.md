@@ -1,14 +1,10 @@
 # git-examples
 
 
-This is the exampleOne branch.
+This is the exampleOneA branch.
 
-To create it, type 
+Git allows you to create branches from branches.
 
-git branch exampleOne
+Be mindful of where in the git tree you're branching from though for merging back into main.
 
-You need to pay attention to what branch you are currently one though. Git willnot change to the newly created branch by default.
-
-git checkout is the command to swap
-
-Ex - git checkout exampleOne
+A good use case for this would be two or more people working in the same dev branch to fix a section of code.
