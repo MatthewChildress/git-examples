@@ -1,12 +1,17 @@
 # git-examples
 
 
-This is the exampleOneA branch.
+This is the exampleOneB branch.
 
-Git allows you to create branches from branches.
 
-Be mindful of where in the git tree you're branching from though for merging back into main.
+You can branch off of branches as well.
 
-A good use case for this would be two or more people working in the same dev branch to fix a section of code.
 
-having a branch of a branch is also good if you're wanting to try something different in your code since it gives you an extra layer away from the main branch.
+the format looks like
+     git checkout -b NewBranch OldBranch
+Ex - git checkout -b exampleOneB exampleOneA
+
+
+Branches of branches ar egood for minor changes like hotfixes.
+
+Be mindful that they will merge into the branch they were created from.
